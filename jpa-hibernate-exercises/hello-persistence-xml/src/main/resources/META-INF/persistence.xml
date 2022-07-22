@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+             version="2.2">
+    
+    <!--todo: configurer une persistence unit avec le nom: ExerciseUnit -->
+    <!--todo: configurer une connexion avec l'url avec le port spécifié pour se connecter à la BDD MySQL-->
+    <!--Nom de la BDD : exercise_db-->
+    <!--todo: configurer une connexion avec l'utilisateur: exercise_user-->
+    <!--todo: configurer une connexion avec le mot de passe: exercise_pwd-->
+    <!--todo: configurer le dialecte SQL d'hibernate pour une base de données MySQL 5.7-->
+    <!--todo: configurer hibernate pour qu'il recréer la base de données au lancement-->
+  
+    
+</persistence>
