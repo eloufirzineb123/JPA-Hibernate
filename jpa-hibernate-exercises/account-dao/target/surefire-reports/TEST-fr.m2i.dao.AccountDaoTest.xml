@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="fr.m2i.dao.AccountDaoTest" time="4.949" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\elouf\OneDrive\Bureau\JavaSuite\JPA_HEB_filip\JPA-Hibernate\jpa-hibernate-exercises\account-dao\target\test-classes;C:\Users\elouf\OneDrive\Bureau\JavaSuite\JPA_HEB_filip\JPA-Hibernate\jpa-hibernate-exercises\account-dao\target\classes;C:\Users\elouf\.m2\repository\mysql\mysql-connector-java\8.0.29\mysql-connector-java-8.0.29.jar;C:\Users\elouf\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;C:\Users\elouf\.m2\repository\org\hibernate\hibernate-core\5.5.4.Final\hibernate-core-5.5.4.Final.jar;C:\Users\elouf\.m2\repository\org\jboss\logging\jboss-logging\3.4.2.Final\jboss-logging-3.4.2.Final.jar;C:\Users\elouf\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\elouf\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\elouf\.m2\repository\net\bytebuddy\byte-buddy\1.11.8\byte-buddy-1.11.8.jar;C:\Users\elouf\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\elouf\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\elouf\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\elouf\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\elouf\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\elouf\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\elouf\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\elouf\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\elouf\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\elouf\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\elouf\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\elouf\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\elouf\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\elouf\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\elouf\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\elouf\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\elouf\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\elouf\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\elouf\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\elouf\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\elouf\.m2\repository\org\projectlombok\lombok\1.18.8\lombok-1.18.8.jar;C:\Users\elouf\.m2\repository\io\codearte\jfairy\jfairy\0.5.7\jfairy-0.5.7.jar;C:\Users\elouf\.m2\repository\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar;C:\Users\elouf\.m2\repository\org\iban4j\iban4j\2.1.1\iban4j-2.1.1.jar;C:\Users\elouf\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\elouf\.m2\repository\com\google\inject\guice\4.0\guice-4.0.jar;C:\Users\elouf\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\elouf\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\elouf\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\Users\elouf\.m2\repository\com\google\inject\extensions\guice-assistedinject\4.0\guice-assistedinject-4.0.jar;C:\Users\elouf\.m2\repository\org\reflections\reflections\0.9.9\reflections-0.9.9.jar;C:\Users\elouf\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\elouf\.m2\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;C:\Users\elouf\.m2\repository\org\slf4j\slf4j-simple\1.7.24\slf4j-simple-1.7.24.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\elouf\AppData\Local\Temp\surefire6302369973444664287\surefirebooter7546322313996813472.jar C:\Users\elouf\AppData\Local\Temp\surefire6302369973444664287 2022-07-24T17-34-42_029-jvmRun1 surefire1383980728445887796tmp surefire_03427029275378179080tmp"/>
+    <property name="test" value="fr.m2i.dao.AccountDaoTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\elouf\OneDrive\Bureau\JavaSuite\JPA_HEB_filip\JPA-Hibernate\jpa-hibernate-exercises\account-dao\target\test-classes;C:\Users\elouf\OneDrive\Bureau\JavaSuite\JPA_HEB_filip\JPA-Hibernate\jpa-hibernate-exercises\account-dao\target\classes;C:\Users\elouf\.m2\repository\mysql\mysql-connector-java\8.0.29\mysql-connector-java-8.0.29.jar;C:\Users\elouf\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;C:\Users\elouf\.m2\repository\org\hibernate\hibernate-core\5.5.4.Final\hibernate-core-5.5.4.Final.jar;C:\Users\elouf\.m2\repository\org\jboss\logging\jboss-logging\3.4.2.Final\jboss-logging-3.4.2.Final.jar;C:\Users\elouf\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\elouf\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\elouf\.m2\repository\net\bytebuddy\byte-buddy\1.11.8\byte-buddy-1.11.8.jar;C:\Users\elouf\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\elouf\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\elouf\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\elouf\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\elouf\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\elouf\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\elouf\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\elouf\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\elouf\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\elouf\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\elouf\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\elouf\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\elouf\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\elouf\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\elouf\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\elouf\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\elouf\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\elouf\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\elouf\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\elouf\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\elouf\.m2\repository\org\projectlombok\lombok\1.18.8\lombok-1.18.8.jar;C:\Users\elouf\.m2\repository\io\codearte\jfairy\jfairy\0.5.7\jfairy-0.5.7.jar;C:\Users\elouf\.m2\repository\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar;C:\Users\elouf\.m2\repository\org\iban4j\iban4j\2.1.1\iban4j-2.1.1.jar;C:\Users\elouf\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\elouf\.m2\repository\com\google\inject\guice\4.0\guice-4.0.jar;C:\Users\elouf\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\elouf\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\elouf\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\Users\elouf\.m2\repository\com\google\inject\extensions\guice-assistedinject\4.0\guice-assistedinject-4.0.jar;C:\Users\elouf\.m2\repository\org\reflections\reflections\0.9.9\reflections-0.9.9.jar;C:\Users\elouf\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\elouf\.m2\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;C:\Users\elouf\.m2\repository\org\slf4j\slf4j-simple\1.7.24\slf4j-simple-1.7.24.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\elouf"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="basedir" value="C:\Users\elouf\OneDrive\Bureau\JavaSuite\JPA_HEB_filip\JPA-Hibernate\jpa-hibernate-exercises\account-dao"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\elouf\AppData\Local\Temp\surefire6302369973444664287\surefirebooter7546322313996813472.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="elouf"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-13\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\elouf\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\elouf\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="C:\Users\elouf\OneDrive\Bureau\JavaSuite\JPA_HEB_filip\JPA-Hibernate\jpa-hibernate-exercises\account-dao"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\elouf\AppData\Local\Microsoft\WindowsApps;C:\Users\elouf\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testSaveAccount" classname="fr.m2i.dao.AccountDaoTest" time="1.168"/>
+  <testcase name="testUpdateAccount" classname="fr.m2i.dao.AccountDaoTest" time="0.119"/>
+  <testcase name="testFindAllAccounts" classname="fr.m2i.dao.AccountDaoTest" time="0.39"/>
+  <testcase name="testUpdateInvalidAccount" classname="fr.m2i.dao.AccountDaoTest" time="0.062"/>
+  <testcase name="testFindAccountByEmail" classname="fr.m2i.dao.AccountDaoTest" time="0.069"/>
+  <testcase name="testSaveInvalidAccount" classname="fr.m2i.dao.AccountDaoTest" time="0.073"/>
+  <testcase name="testRemoveAccount" classname="fr.m2i.dao.AccountDaoTest" time="0.094"/>
+  <testcase name="testFindAccountById" classname="fr.m2i.dao.AccountDaoTest" time="0.045"/>
+</testsuite>
