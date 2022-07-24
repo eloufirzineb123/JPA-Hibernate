@@ -1,5 +1,6 @@
 package fr.m2i.model;
 
+import fr.m2i.exception.AccountDaoException;
 import lombok.*;
 
 import javax.persistence.*;
@@ -39,5 +40,19 @@ public class Account {
     private LocalDateTime creationTime;
 
     @Column(name = "balance")
-    private BigDecimal balance = BigDecimal.ZERO.setScale(2);
+    private BigDecimal balance = BigDecimal.ZERO.setScale(2);    
+
+    public void copy(Account accountData) throws AccountDaoException {
+         if (accountData.balance == null || accountData.birthday == null || accountData.creationTime == null || accountData.email == null || accountData.firstName == null || accountData.gender == null || accountData.id == null || accountData.lastName == null) {
+            throw new AccountDaoException("", new Exception());
+        }
+        this.balance = accountData.balance;
+        this.birthday = accountData.birthday;
+        this.creationTime = accountData.creationTime;
+        this.email = accountData.email;
+        this.firstName = accountData.firstName;
+        this.gender = accountData.gender;
+        this.id = accountData.id;
+        this.lastName = accountData.lastName;
+    }
 }
